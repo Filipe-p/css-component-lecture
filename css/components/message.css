@@ -1,0 +1,32 @@
+.message {
+	display: flex;
+	align-items: center;
+	background-color: rgb(200, 200, 200);
+	padding: 10px;
+}
+
+.message-content {
+	flex-grow: 1;
+}
+
+.message-info {
+	padding: 0px 10px;
+}
+
+.message-info h3 {
+	margin-bottom: 0px;
+}
+
+.message-price h3{
+	color: green;
+	font-weight: bolder;
+	margin-bottom: 0px;
+}
+
+.message-price p , .message-info p, .message-content p {
+	margin-top: 5px;
+}
+
+.message-content h4{
+	margin-bottom: 0px;
+}
